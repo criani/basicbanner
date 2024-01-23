@@ -13,7 +13,7 @@ def create_banner_on_monitor(monitor):
     window.title("System Classification Banner")
     window.attributes('-topmost', True)
     window.overrideredirect(True)
-    label_text = "NOFORN (U-NNPI)"
+    label_text = "Approved up to UNCLASSIFIED NNPI"
     label = tk.Label(window, text=label_text, bg="green", fg="white")
     label.pack(fill=tk.BOTH, expand=True)
     window.geometry(f"{monitor.width}x30+{monitor.x}+0")
